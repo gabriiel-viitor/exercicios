@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+
+body {
+    background-image: linear-gradient(to right, #FC448D, #E03DD0, #903DE0);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 700px;
+    padding: 08px;
+    margin: auto;
+    box-shadow: 5px 5px 14px #FDC651;
+}
+
+h1{
+    font-family: 'Bree Serif', serif;
+    color: #E6A343;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Bree Serif', serif;
+    color: #39D0EB;
+    font-size: 40px;
+}
+
+
+p{
+    text-align: justify;
+    font-size: px;
+}
+
+button{
+    background-color: rgba(255, 0, 0, 0.801);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 10px ;
+    width: 100px;
+    height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input{
+    font-size: 15px;
+}
+

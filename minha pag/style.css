@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Race";
+  src: url(fonts/Race\ Sport.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comics" ;
+  src: url(fonts/Comics\ Deluxe.ttf) format(truetype), url(fonts/Comics\ Deluxe\ Italic.ttf) format(truetype), url(fonts/Comics\ Deluxe\ Italic.otf) format(opentype), url(fonts/Comics\ Deluxe.otf) format(opentype);
+}
+
+
+
+
+
+
+
+body {
+  background-image: linear-gradient(to right, #26DDFD, #2085E3, #3258FA, #4022E3, #9226FD);
+
+}
+
+h1 {
+  font-family: "Race";
+  background-color: azure;
+  color: #4022E3;
+
+}
+
+h2{
+  font-family: "Comics";
+  background-color: rgb(210, 210, 248);
+  color: #f04a08;  
+  font-style: italic;
+
+}
+
+p {
+  font-family:  "cursive";
+  font-size: 25px;
+  color: rgb(0, 0, 0);  
+  font-weight: 700;
+
+}
+
+ul {
+  font-family: "Comics";
+  color: rgb(255, 0, 0);
+ font-size: 20px;
+}
+
+ol{ 
+  font-family: "Comics";
+  color: rgba(231, 41, 168, 0.973);  
+}
+
+abbr{
+color: rgb(255, 0, 0);
+
+}

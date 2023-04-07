@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+
+
+body{
+    background-image: linear-gradient(to top, blue, grey, pink);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Chewy', cursive;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+h2 {
+    font-family: 'Squada One', cursive;
+    color: orangered;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+p::first-letter{
+    font-size: 30px;
+    color: red;
+}
+
+
+.principal::before{
+    content: "OLHA ISSO -->        ";
+    color: crimson;
+    font-size: 15px;
+}
+
+.principal{
+    background-color: aqua;
+    color: crimson;
+}
+
+.secundario{
+    background-color: rgb(47, 212, 74);    
+    color: rgb(15, 35, 214);
+
+}
+
+.principal:hover{
+    background-color: cadetblue;
+    color: darkgreen;
+}
+
+
+
+
+
+
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: aqua;
+}
+
+a:focus{
+    color: black;
+}
+
+#video::cue{
+    color: yellow;
+    text-transform: uppercase;
+}   
+    
+    

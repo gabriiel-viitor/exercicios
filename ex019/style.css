@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Golden" ;
+    src: url(fonts/Golden\ Smile.ttf) format(truetype), url(fonts/Golden\ Smile.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+
+
+body{
+    background-image: linear-gradient(to right, blue, grey, purple);
+
+}
+
+
+
+
+
+
+h1{
+    font-family: "Golden";
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    color: rgb(27, 216, 2);
+    
+
+}
+
+p{
+    
+    font-family: 'Titan One', cursive;
+    width: 400;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 5px 5px 15px rgb(211, 74, 97);
+}
+
+h2{
+    color: rgb(59, 252, 0);
+    font-family: "Golden";
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+
+
+}
+
+

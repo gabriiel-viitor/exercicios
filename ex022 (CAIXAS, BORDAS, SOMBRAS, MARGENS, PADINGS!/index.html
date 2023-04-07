@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            background-color: rgba(175, 172, 172, 0.795);
+            font-family: 'Roboto Slab', serif;
+        }
+
+        header{
+            width: 300px;
+            height: auto;
+            background-color: white;
+            padding: 5px 15px 20px 15px;
+            border: 5px solid rgb(0, 0, 0);
+            text-align: center;
+            margin: auto;        
+        }
+        
+        nav{
+            background-color: rgba(158, 161, 163, 0.753);            
+            padding: 2px;
+            border: 5px yellow solid;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: red;
+            font-weight: bolder;
+            margin-right: 10px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        } 
+              
+       
+        main{
+            background-color: rgba(255, 255, 255, 0.664);
+            padding: 10px;
+            border: 3px black solid;     
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+
+        footer{
+            background-color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bolder;
+            color: white;
+            text-align: center;
+            border: 5px white solid;
+            padding: 1px;
+        }
+
+        h2{
+            color: rebeccapurple;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+
+       div#bola {
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        margin: 30px 20px 15px 20px;
+        border-radius: 50%;
+        box-shadow: 8px 8px 20px 1px rgba(0, 0, 0, 0.24)
+    } 
+
+        img{
+        margin: 25px 0px 0px 25px;
+        }
+
+        p#foto{
+        display: inline ;     
+        margin: 1px 10px 1px 10px;    
+        
+        position: relative;
+        left: 460px;
+        bottom: 205px
+    }
+
+
+        p#foto::before{
+            content: "⟻";
+            font-size: 20px;
+            font-weight: bolder;
+            padding: 10px;
+        
+        }
+
+
+
+
+
+
+    </style>
+
+
+</head>
+
+
+<body>
+    <header>
+        <h1>Testando meus conhecimentos</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="assuntos">
+            <article>
+               <h2>Assuntos do dia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum at quo eum id soluta. Eos dolore officiis repellat? Pariatur vitae, aliquam reiciendis nisi totam labore officia iusto consectetur. Libero, possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis itaque accusamus ut delectus maxime consequuntur eligendi? Facilis, expedita. Vero corrupti aut dolores dicta eum, enim atque culpa. Iure, unde tenetur.</p>
+                <aside style="color: rgb(75, 121, 29);">
+                    <p>Escrito por Gabiru Lorem</p>
+                </aside>
+            </article>
+        </section>      
+    
+        <div id="bola">
+        <img src="IMG-20220924-WA0237.png" alt="eu">
+        <p id="foto">Este sou eu, "Gabiru Lorem"</p>
+    </div>
+    
+    
+    
+    </main>
+    <footer>
+        <p style="margin: 0px;">Site feito no VS por Gabriel</p>
+    </footer>
+    
+
+
+
+
+
+
+
+</body>
+</html>

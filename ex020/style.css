@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+
+
+
+body{
+    background-image: linear-gradient(to top, #1D95EB, #1D95EB, #1984D1, #156CAB, #0D446B);
+    background-attachment: fixed;
+    font-family: 'Changa One', cursive;
+    font-weight: normal;
+}
+
+h1{
+    color: #EB9F2C;
+    background-color: #F5E9AF;
+    text-align: justify;   
+}
+
+h1#principal{
+    text-align: center;
+    color: red;
+    background-color: rgb(58, 235, 96);
+}
+
+
+
+h2{
+    color: #F75C23;
+    background-color: #EACA78;
+    text-align: justify;
+
+}
+
+h2.importante{
+    color: red;
+    text-align: center;
+    background-color: white;
+
+}
+
+
+p{
+    text-align: justify;        
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.importante:hover {
+    background-color: rgb(223, 14, 14);
+    color: white;
+}
+
+
+div:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+
+}
+
+
