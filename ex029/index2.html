@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: darkgrey;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input{
+            background-color: red;
+            color: rgb(240, 226, 226);
+            font-weight: bolder;
+            padding: 3px;
+            margin: 3px;
+        }
+
+        #ienviar, #ilimpar{
+            border-radius: 10px;
+            background-color: white;
+            color: rgb(128, 0, 0);
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Formulario para pesquisa</h1>
+    <form action="cadastro.php" method="post">
+        
+        <p>
+            <label for="iusu">Usuario:</label>
+            <input type="text" name="usu" id="iusu" autocomplete="off" required minlength="8" maxlength="15" size="20" placeholder="Digite seu nome de usuario">
+        </p>
+
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="senha" id="isen" required minlength="8" maxlength="20" size="20" placeholder="Digite sua senha">
+        </p>
+
+        <p>
+            <label for="inascimento">Data de nascimento:</label>
+            <input type="date" name="nascimento" id="inascimento" required >
+        </p>
+
+        <p>
+            <label for="ihora-nasc">Horas do nascimento:</label>
+            <input type="time" name="hora-nasc" id="ihoras-nasc" required value="00:00">
+        </p>
+        
+        <p>
+            <label for="imedia">Média de notas faculdade</label>
+            <input type="number" name="media" id="imedia" required value="5" step="0.1" min="0" max="10">
+        </p>
+
+        <p>
+            <input type="submit" id="ienviar" value="ENVIAR">
+            <input type="reset" id="ilimpar" value="LIMPAR">
+        </p>
+    </form>
+
+
+
+</body>
+</html>

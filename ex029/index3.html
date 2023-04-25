@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+<h1>Formulario</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Info Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required minlength="6" max="15" size="15" autocomplete="off" >
+            </p>
+
+            <p>
+                Sexo:
+                <br>
+                <label for="isexmasc">Masculino</label>
+                <input type="radio" id="isexmasc" name="opcao" value="M">
+                <br>
+                
+                <label for="isexfem">Feminino</label>
+                <input type="radio" id="isexfem" name="opcao" value="F">
+                <br>
+            </p>
+            
+            <p>
+                <label for="inasc">Data de nascimento:</label>
+                <input type="date" name="nasc" id="inasc" required>
+            </p>
+        
+            <p>
+                <label for="estado">Estados:</label>
+                <select name="estado" id="iestado">
+                    <optgroup label="Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas gerais</option>
+                    </optgroup>
+                    
+                    <optgroup label="Nordeste">
+                        <option value="BA">Bahia</option>
+                        <option value="PE">Pernambuco</option>
+                    </optgroup>
+                </select>                      
+            </p>        
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>Hobbies</legend>
+            <p>
+                <input type="checkbox" name="fut" id="ifut" checked>
+                <label for="ifut">Futebol</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="basq" id="ibasq">
+                <label for="ibasq">Basquete</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="ping" id="iping">
+                <label for="iping">Ping-Pong</label>
+            </p>
+            
+            <p>
+                <label for="iprof">Profissão:</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option value="MED">Medico</option>
+                    <option value="DEV">Desenvolvidor</option>
+                    <option value="ADV">Advogado</option>
+                </datalist>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" id="ienviar" value="ENVIAR">
+            <input type="reset" id="ilimpar" value="LIMPAR">
+        </p>
+    </form>
+
+
+</body>
+</html>
